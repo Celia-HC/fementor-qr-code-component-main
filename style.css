@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 :root {
@@ -40,7 +41,6 @@ body {
 }
 
 .text {
-    margin: 0 16px;
     padding:0 16px;
 }
 
@@ -49,10 +49,13 @@ body {
     font-weight: 700;
     text-align: center;
     font-size: 22px;
+    margin-top: 24px;
+    margin-bottom: 16px;
 }
 
 .text-scan {
     color:var(---grayish-blue);
     text-align: center;
-    margin: 24px;
+    font-size: 15px;
+    padding: 0 16px;
 }
