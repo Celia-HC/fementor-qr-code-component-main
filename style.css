@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
     ---white: hsl(0, 0%, 100%);
     ---light-grey: hsl(212, 45%, 89%);
@@ -15,8 +19,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 .container {
